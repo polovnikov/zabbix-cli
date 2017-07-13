@@ -6,7 +6,7 @@
 %{!?pybasever: %global pybasever %(%{__python2} -c "import sys;print(sys.version[0:3])")}
 
 Name: zabbix-cli
-Version: 1.7.0
+Version: 1.7.1
 Release: 1%{?dist}
 Summary: Command-line interface for Zabbix
 
